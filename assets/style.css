@@ -1,0 +1,162 @@
+* { box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    font-family:Arial;
+    flex-direction: column;
+    line-height: 1.3;
+    margin: 0%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+header {
+    
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+}
+h1 {
+    font-size: 300%;
+}
+h2 {font-size: 300%;
+    text-align: center;
+
+}    
+h3 {font-size: 300%;
+}
+
+   
+p {font-size: 200%;
+}
+
+  
+
+ /* this is my nav section */
+nav ul {
+
+    display: flex-end;
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: ##13293d;
+
+}
+footer ul {
+    display:flex;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: ##13293d;
+}
+main {
+    
+    display: flex;
+    height: 200px;
+    align-items: center;
+    background-color: #f1f1f1;
+    width: 1900px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 10px; }
+li a { 
+    
+    align-content: center;
+    display: block;
+    color:whitesmoke;
+    padding: 8px 16px;
+    text-decoration: none;
+    line: height 30px; ;
+    }
+li a:hover{ 
+    background-color: #555;
+    color: #13293d;
+li b { 
+    
+        align-content: center;
+        display: block;
+        color:whitesmoke;
+        padding: 8px 16px;
+        text-decoration: none;
+        line: height 30px; 
+        }
+}
+li b:hover{
+    background-color: #555;
+    color:#13293d
+}
+nav a {
+    display: flex;
+    background-color:##13293d;
+
+     
+ }
+ nav b {
+     display: flex;
+     background-color: #13293d;
+ }
+
+/* this is my photo */
+ #bryon-image{
+      width: 130px;
+      border-radius: 20px
+ }
+      
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+    
+
+
+footer {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+
+    
+      
+
+      padding: 0%;
+      margin: auto;
+      width: 100%;
+      background-color: blue;
+
+
+      }
+
+   @media screen and (max-width: 975px){
+header {background:brown;
+
+}
+
+   }
+@media screen and (max-width: 768px) {
+    nav {background-color: #bb8588;
+    }
+  
+  
+ 
+  @media screen and (max-width: 576px) {
+    .sample-img {background-color: #8ac4ff;
+    
+  }
+  
+       
+   
+
+ 
+
+    
